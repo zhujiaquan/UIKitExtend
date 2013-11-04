@@ -9,6 +9,7 @@
 // #import <UIKitExtend/UIView+Utilities.h>
 
 #import "UIView+Utilities.h"
+#import "UIView+FromNib.h"
 #import "UIView+Animations.h"
 #import "UIView+WhenTappedBlocks.h"
 
