@@ -6,4 +6,6 @@
 //  Copyright (c) 2013年 5codelab. All rights reserved.
 //
 
-#import <UIKitExtend/UIView+Utilities.h>
+// #import <UIKitExtend/UIView+Utilities.h>
+#import "UIView+Utilities.h"
+#import "UIImage+Watermark.h"

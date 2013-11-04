@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E8010A5418273A16001220D3 /* UIImage+Watermark.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A5318273A16001220D3 /* UIImage+Watermark.m */; };
 		E8EF25121825F6EF00EB6555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF25111825F6EF00EB6555 /* Foundation.framework */; };
 		E8EF25201825F6EF00EB6555 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF251F1825F6EF00EB6555 /* XCTest.framework */; };
 		E8EF25211825F6EF00EB6555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF25111825F6EF00EB6555 /* Foundation.framework */; };
@@ -40,6 +41,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		E8010A5218273A16001220D3 /* UIImage+Watermark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Watermark.h"; sourceTree = "<group>"; };
+		E8010A5318273A16001220D3 /* UIImage+Watermark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Watermark.m"; sourceTree = "<group>"; };
 		E8EF250E1825F6EF00EB6555 /* libUIKitExtend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitExtend.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EF25111825F6EF00EB6555 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E8EF25151825F6EF00EB6555 /* UIKitExtend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitExtend-Prefix.pch"; sourceTree = "<group>"; };
@@ -112,6 +115,8 @@
 				E8EF25371825F74B00EB6555 /* UIKitExtend.h */,
 				E8EF25381825F74B00EB6555 /* UIView+Utilities.h */,
 				E8EF25391825F74B00EB6555 /* UIView+Utilities.m */,
+				E8010A5218273A16001220D3 /* UIImage+Watermark.h */,
+				E8010A5318273A16001220D3 /* UIImage+Watermark.m */,
 				E8EF25141825F6EF00EB6555 /* Supporting Files */,
 			);
 			path = UIKitExtend;
@@ -224,6 +229,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8010A5418273A16001220D3 /* UIImage+Watermark.m in Sources */,
 				E8EF253A1825F74B00EB6555 /* UIView+Utilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,6 +415,7 @@
 				E8EF25331825F6F000EB6555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E8EF25341825F6F000EB6555 /* Build configuration list for PBXNativeTarget "UIKitExtendTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +424,7 @@
 				E8EF25361825F6F000EB6555 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
