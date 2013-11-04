@@ -1,5 +1,5 @@
 //
-//  UIToolbar+Utilities.h
+//  UIToolbar+BGImage.h
 //  UIKitExtend
 //
 //  Created by ZhuJiaQuan on 13-11-4.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface UIToolbar (Utilities)
+@interface UIToolbar (BGImage)
 
 - (void)setBackgroundImage:(UIImage *)backgroundImage;
 - (void)insertSubview:(UIView *)view atIndex:(NSInteger)index;

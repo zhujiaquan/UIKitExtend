@@ -21,7 +21,7 @@
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (UINavigationController *)navigationController
+- (UINavigationController *)navigationControllerFromSelf
 {
     UINavigationController * navigation = [[UINavigationController alloc] initWithRootViewController:self] ;
     [navigation setTitle:self.title];
@@ -29,7 +29,7 @@
 }
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-- (UIPopoverController *)popoverController
+- (UIPopoverController *)popoverControllerFromSelf
 {
     UIPopoverController *popover = [[UIPopoverController alloc] initWithContentViewController:self];
     return AMAutorelease( popover );

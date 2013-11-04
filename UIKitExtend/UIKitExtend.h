@@ -13,10 +13,11 @@
 #import "UIView+Animations.h"
 #import "UIView+WhenTappedBlocks.h"
 
-#import "UIToolbar+Utilities.h"
-#import "UIToolbar+KeybordToolbar.h"
-
 #import "UIAlertView+Utilities.h"
+
+#import "UIToolbar+KeybordToolbar.h"
+#import "UIToolbar+BGImage.h"
+#import "UINavigationBar+BGImage.h"
 
 #import "UIImage+Utilities.h"
 #import "UIImage+Watermark.h"

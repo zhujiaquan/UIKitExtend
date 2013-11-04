@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		E8010A5418273A16001220D3 /* UIImage+Watermark.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A5318273A16001220D3 /* UIImage+Watermark.m */; };
-		E8010A5718273CC5001220D3 /* UIToolbar+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A5618273CC5001220D3 /* UIToolbar+Utilities.m */; };
 		E8010A64182742B9001220D3 /* UIAlertView+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A63182742B9001220D3 /* UIAlertView+Utilities.m */; };
 		E8010A6D182746F6001220D3 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A66182746F6001220D3 /* UIImage+Alpha.m */; };
 		E8010A6E182746F6001220D3 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A68182746F6001220D3 /* UIImage+Resize.m */; };
@@ -21,6 +20,8 @@
 		E8010A7F18277189001220D3 /* UIViewController+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A7E18277189001220D3 /* UIViewController+Utilities.m */; };
 		E8010A8218277300001220D3 /* UIScreen+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A8118277300001220D3 /* UIScreen+Utilities.m */; };
 		E8010A85182774A3001220D3 /* UIView+FromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A84182774A3001220D3 /* UIView+FromNib.m */; };
+		E8010A8818277808001220D3 /* UINavigationBar+BGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A8718277808001220D3 /* UINavigationBar+BGImage.m */; };
+		E8010A8B18277903001220D3 /* UIToolbar+BGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A8A18277903001220D3 /* UIToolbar+BGImage.m */; };
 		E8EF25121825F6EF00EB6555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF25111825F6EF00EB6555 /* Foundation.framework */; };
 		E8EF25201825F6EF00EB6555 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF251F1825F6EF00EB6555 /* XCTest.framework */; };
 		E8EF25211825F6EF00EB6555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF25111825F6EF00EB6555 /* Foundation.framework */; };
@@ -56,8 +57,6 @@
 /* Begin PBXFileReference section */
 		E8010A5218273A16001220D3 /* UIImage+Watermark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Watermark.h"; sourceTree = "<group>"; };
 		E8010A5318273A16001220D3 /* UIImage+Watermark.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Watermark.m"; sourceTree = "<group>"; };
-		E8010A5518273CC5001220D3 /* UIToolbar+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+Utilities.h"; sourceTree = "<group>"; };
-		E8010A5618273CC5001220D3 /* UIToolbar+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+Utilities.m"; sourceTree = "<group>"; };
 		E8010A5818273D8F001220D3 /* ARCMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARCMacros.h; sourceTree = "<group>"; };
 		E8010A62182742B9001220D3 /* UIAlertView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+Utilities.h"; sourceTree = "<group>"; };
 		E8010A63182742B9001220D3 /* UIAlertView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+Utilities.m"; sourceTree = "<group>"; };
@@ -83,6 +82,10 @@
 		E8010A8118277300001220D3 /* UIScreen+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+Utilities.m"; sourceTree = "<group>"; };
 		E8010A83182774A3001220D3 /* UIView+FromNib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+FromNib.h"; sourceTree = "<group>"; };
 		E8010A84182774A3001220D3 /* UIView+FromNib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+FromNib.m"; sourceTree = "<group>"; };
+		E8010A8618277808001220D3 /* UINavigationBar+BGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+BGImage.h"; sourceTree = "<group>"; };
+		E8010A8718277808001220D3 /* UINavigationBar+BGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+BGImage.m"; sourceTree = "<group>"; };
+		E8010A8918277903001220D3 /* UIToolbar+BGImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+BGImage.h"; sourceTree = "<group>"; };
+		E8010A8A18277903001220D3 /* UIToolbar+BGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+BGImage.m"; sourceTree = "<group>"; };
 		E8EF250E1825F6EF00EB6555 /* libUIKitExtend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitExtend.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EF25111825F6EF00EB6555 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E8EF25151825F6EF00EB6555 /* UIKitExtend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitExtend-Prefix.pch"; sourceTree = "<group>"; };
@@ -160,8 +163,10 @@
 				E8010A7818276F14001220D3 /* UIView+Animations.m */,
 				E8010A83182774A3001220D3 /* UIView+FromNib.h */,
 				E8010A84182774A3001220D3 /* UIView+FromNib.m */,
-				E8010A5518273CC5001220D3 /* UIToolbar+Utilities.h */,
-				E8010A5618273CC5001220D3 /* UIToolbar+Utilities.m */,
+				E8010A8918277903001220D3 /* UIToolbar+BGImage.h */,
+				E8010A8A18277903001220D3 /* UIToolbar+BGImage.m */,
+				E8010A8618277808001220D3 /* UINavigationBar+BGImage.h */,
+				E8010A8718277808001220D3 /* UINavigationBar+BGImage.m */,
 				E8010A62182742B9001220D3 /* UIAlertView+Utilities.h */,
 				E8010A63182742B9001220D3 /* UIAlertView+Utilities.m */,
 				E8010A5218273A16001220D3 /* UIImage+Watermark.h */,
@@ -296,11 +301,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8010A8818277808001220D3 /* UINavigationBar+BGImage.m in Sources */,
 				E8010A731827498A001220D3 /* UIView+WhenTappedBlocks.m in Sources */,
-				E8010A5718273CC5001220D3 /* UIToolbar+Utilities.m in Sources */,
 				E8010A5418273A16001220D3 /* UIImage+Watermark.m in Sources */,
 				E8010A85182774A3001220D3 /* UIView+FromNib.m in Sources */,
 				E8010A6F182746F6001220D3 /* UIImage+RoundedCorner.m in Sources */,
+				E8010A8B18277903001220D3 /* UIToolbar+BGImage.m in Sources */,
 				E8010A7C1827701A001220D3 /* UIApplication+Addictions.m in Sources */,
 				E8010A64182742B9001220D3 /* UIAlertView+Utilities.m in Sources */,
 				E8010A6D182746F6001220D3 /* UIImage+Alpha.m in Sources */,

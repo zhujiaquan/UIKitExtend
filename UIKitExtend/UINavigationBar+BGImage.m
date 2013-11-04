@@ -1,21 +1,19 @@
 //
-//  UIToolbar+Utilities.m
+//  UINavigationBar+BGImage.m
 //  UIKitExtend
 //
 //  Created by ZhuJiaQuan on 13-11-4.
 //  Copyright (c) 2013年 5codelab. All rights reserved.
 //
 
-#import "UIToolbar+Utilities.h"
+#import "UINavigationBar+BGImage.h"
 #import "ARCMacros.h"
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
-@implementation UIToolbar (Utilities)
+@implementation UINavigationBar (BGImage)
 
-///////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////
 UIImageView *backgroundImageView;
 
@@ -24,9 +22,7 @@ UIImageView *backgroundImageView;
 {
     if ([[[UIDevice currentDevice] systemVersion] floatValue] >= 5.0)
     {
-        [self setBackgroundImage:backgroundImage
-              forToolbarPosition:UIToolbarPositionAny
-                      barMetrics:UIBarMetricsDefault];
+        [self setBackgroundImage:backgroundImage forBarMetrics:UIBarMetricsDefault];
     }
     else
     {
@@ -37,13 +33,14 @@ UIImageView *backgroundImageView;
         else
         {
             backgroundImageView = [[UIImageView alloc] initWithImage:backgroundImage];
+            backgroundImageView.tag = 9999;
             backgroundImageView.frame = self.bounds;
             backgroundImageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
             
             [self addSubview:backgroundImageView];
             [self sendSubviewToBack:backgroundImageView];
         
-            AMRelease(backgroundImageView);
+            AMRelease( backgroundImageView );
         }
     }
 }

@@ -12,8 +12,8 @@
 
 + (id)viewControllerFromNib;
 
-- (UINavigationController *)navigationController;
+- (UINavigationController *)navigationControllerFromSelf;
 
-- (UIPopoverController *)popoverController;
+- (UIPopoverController *)popoverControllerFromSelf;
 
 @end
