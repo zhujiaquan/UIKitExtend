@@ -22,6 +22,24 @@
 		E8010A85182774A3001220D3 /* UIView+FromNib.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A84182774A3001220D3 /* UIView+FromNib.m */; };
 		E8010A8818277808001220D3 /* UINavigationBar+BGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A8718277808001220D3 /* UINavigationBar+BGImage.m */; };
 		E8010A8B18277903001220D3 /* UIToolbar+BGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = E8010A8A18277903001220D3 /* UIToolbar+BGImage.m */; };
+		E8145F271828996900CFB9F5 /* UIKitExtend.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EF25371825F74B00EB6555 /* UIKitExtend.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F281828996900CFB9F5 /* UIView+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E8EF25381825F74B00EB6555 /* UIView+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F291828996900CFB9F5 /* UIView+Animations.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A7718276F14001220D3 /* UIView+Animations.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F2A1828996900CFB9F5 /* UIView+FromNib.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A83182774A3001220D3 /* UIView+FromNib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F2B1828996900CFB9F5 /* UIToolbar+BGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A8918277903001220D3 /* UIToolbar+BGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F2C1828996900CFB9F5 /* UINavigationBar+BGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A8618277808001220D3 /* UINavigationBar+BGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F2D1828996900CFB9F5 /* UIAlertView+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A62182742B9001220D3 /* UIAlertView+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F2E1828996900CFB9F5 /* UIImage+Watermark.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A5218273A16001220D3 /* UIImage+Watermark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F2F1828996900CFB9F5 /* UIImage+Alpha.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A65182746F6001220D3 /* UIImage+Alpha.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F301828996900CFB9F5 /* UIImage+Resize.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A67182746F6001220D3 /* UIImage+Resize.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F311828996900CFB9F5 /* UIImage+RoundedCorner.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A69182746F6001220D3 /* UIImage+RoundedCorner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F321828996900CFB9F5 /* UIImage+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A6B182746F6001220D3 /* UIImage+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F331828996900CFB9F5 /* UIView+WhenTappedBlocks.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A711827498A001220D3 /* UIView+WhenTappedBlocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F341828996900CFB9F5 /* UIToolbar+KeybordToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A7418274B7A001220D3 /* UIToolbar+KeybordToolbar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F351828996900CFB9F5 /* UIApplication+Addictions.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A7A1827701A001220D3 /* UIApplication+Addictions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F361828996900CFB9F5 /* UIViewController+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A7D18277189001220D3 /* UIViewController+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F371828996900CFB9F5 /* UIScreen+Utilities.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A8018277300001220D3 /* UIScreen+Utilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8145F381828999D00CFB9F5 /* ARCMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = E8010A5818273D8F001220D3 /* ARCMacros.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		E8EF25121825F6EF00EB6555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF25111825F6EF00EB6555 /* Foundation.framework */; };
 		E8EF25201825F6EF00EB6555 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF251F1825F6EF00EB6555 /* XCTest.framework */; };
 		E8EF25211825F6EF00EB6555 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8EF25111825F6EF00EB6555 /* Foundation.framework */; };
@@ -41,18 +59,6 @@
 			remoteInfo = UIKitExtend;
 		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E8EF250C1825F6EF00EB6555 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E8010A5218273A16001220D3 /* UIImage+Watermark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Watermark.h"; sourceTree = "<group>"; };
@@ -230,6 +236,34 @@
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		E8145F261828993E00CFB9F5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8145F271828996900CFB9F5 /* UIKitExtend.h in Headers */,
+				E8145F281828996900CFB9F5 /* UIView+Utilities.h in Headers */,
+				E8145F291828996900CFB9F5 /* UIView+Animations.h in Headers */,
+				E8145F2A1828996900CFB9F5 /* UIView+FromNib.h in Headers */,
+				E8145F2B1828996900CFB9F5 /* UIToolbar+BGImage.h in Headers */,
+				E8145F2C1828996900CFB9F5 /* UINavigationBar+BGImage.h in Headers */,
+				E8145F2D1828996900CFB9F5 /* UIAlertView+Utilities.h in Headers */,
+				E8145F2E1828996900CFB9F5 /* UIImage+Watermark.h in Headers */,
+				E8145F2F1828996900CFB9F5 /* UIImage+Alpha.h in Headers */,
+				E8145F301828996900CFB9F5 /* UIImage+Resize.h in Headers */,
+				E8145F311828996900CFB9F5 /* UIImage+RoundedCorner.h in Headers */,
+				E8145F321828996900CFB9F5 /* UIImage+Utilities.h in Headers */,
+				E8145F331828996900CFB9F5 /* UIView+WhenTappedBlocks.h in Headers */,
+				E8145F341828996900CFB9F5 /* UIToolbar+KeybordToolbar.h in Headers */,
+				E8145F351828996900CFB9F5 /* UIApplication+Addictions.h in Headers */,
+				E8145F361828996900CFB9F5 /* UIViewController+Utilities.h in Headers */,
+				E8145F371828996900CFB9F5 /* UIScreen+Utilities.h in Headers */,
+				E8145F381828999D00CFB9F5 /* ARCMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
 		E8EF250D1825F6EF00EB6555 /* UIKitExtend */ = {
 			isa = PBXNativeTarget;
@@ -237,7 +271,7 @@
 			buildPhases = (
 				E8EF250A1825F6EF00EB6555 /* Sources */,
 				E8EF250B1825F6EF00EB6555 /* Frameworks */,
-				E8EF250C1825F6EF00EB6555 /* CopyFiles */,
+				E8145F261828993E00CFB9F5 /* Headers */,
 			);
 			buildRules = (
 			);
