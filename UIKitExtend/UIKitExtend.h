@@ -6,8 +6,6 @@
 //  Copyright (c) 2013年 5codelab. All rights reserved.
 //
 
-// #import <UIKitExtend/UIView+Utilities.h>
-
 #import "UIKitExtend/UIView+Utilities.h"
 #import "UIKitExtend/UIView+FromNib.h"
 #import "UIKitExtend/UIView+Animations.h"
