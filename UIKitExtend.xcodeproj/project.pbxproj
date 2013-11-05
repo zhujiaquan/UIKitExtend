@@ -88,7 +88,6 @@
 		E8010A8A18277903001220D3 /* UIToolbar+BGImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+BGImage.m"; sourceTree = "<group>"; };
 		E8EF250E1825F6EF00EB6555 /* libUIKitExtend.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libUIKitExtend.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EF25111825F6EF00EB6555 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		E8EF25151825F6EF00EB6555 /* UIKitExtend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIKitExtend-Prefix.pch"; sourceTree = "<group>"; };
 		E8EF251E1825F6EF00EB6555 /* UIKitExtendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIKitExtendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8EF251F1825F6EF00EB6555 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E8EF25221825F6EF00EB6555 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -98,6 +97,7 @@
 		E8EF25371825F74B00EB6555 /* UIKitExtend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitExtend.h; sourceTree = "<group>"; };
 		E8EF25381825F74B00EB6555 /* UIView+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Utilities.h"; sourceTree = "<group>"; };
 		E8EF25391825F74B00EB6555 /* UIView+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Utilities.m"; sourceTree = "<group>"; };
+		E8F8930D182894370074A881 /* UIKitExtend-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIKitExtend-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,50 +156,11 @@
 			isa = PBXGroup;
 			children = (
 				E8EF25371825F74B00EB6555 /* UIKitExtend.h */,
-				E8010A5818273D8F001220D3 /* ARCMacros.h */,
-				E8EF25381825F74B00EB6555 /* UIView+Utilities.h */,
-				E8EF25391825F74B00EB6555 /* UIView+Utilities.m */,
-				E8010A7718276F14001220D3 /* UIView+Animations.h */,
-				E8010A7818276F14001220D3 /* UIView+Animations.m */,
-				E8010A83182774A3001220D3 /* UIView+FromNib.h */,
-				E8010A84182774A3001220D3 /* UIView+FromNib.m */,
-				E8010A8918277903001220D3 /* UIToolbar+BGImage.h */,
-				E8010A8A18277903001220D3 /* UIToolbar+BGImage.m */,
-				E8010A8618277808001220D3 /* UINavigationBar+BGImage.h */,
-				E8010A8718277808001220D3 /* UINavigationBar+BGImage.m */,
-				E8010A62182742B9001220D3 /* UIAlertView+Utilities.h */,
-				E8010A63182742B9001220D3 /* UIAlertView+Utilities.m */,
-				E8010A5218273A16001220D3 /* UIImage+Watermark.h */,
-				E8010A5318273A16001220D3 /* UIImage+Watermark.m */,
-				E8010A65182746F6001220D3 /* UIImage+Alpha.h */,
-				E8010A66182746F6001220D3 /* UIImage+Alpha.m */,
-				E8010A67182746F6001220D3 /* UIImage+Resize.h */,
-				E8010A68182746F6001220D3 /* UIImage+Resize.m */,
-				E8010A69182746F6001220D3 /* UIImage+RoundedCorner.h */,
-				E8010A6A182746F6001220D3 /* UIImage+RoundedCorner.m */,
-				E8010A6B182746F6001220D3 /* UIImage+Utilities.h */,
-				E8010A6C182746F6001220D3 /* UIImage+Utilities.m */,
-				E8010A711827498A001220D3 /* UIView+WhenTappedBlocks.h */,
-				E8010A721827498A001220D3 /* UIView+WhenTappedBlocks.m */,
-				E8010A7418274B7A001220D3 /* UIToolbar+KeybordToolbar.h */,
-				E8010A7518274B7A001220D3 /* UIToolbar+KeybordToolbar.m */,
-				E8010A7A1827701A001220D3 /* UIApplication+Addictions.h */,
-				E8010A7B1827701A001220D3 /* UIApplication+Addictions.m */,
-				E8010A7D18277189001220D3 /* UIViewController+Utilities.h */,
-				E8010A7E18277189001220D3 /* UIViewController+Utilities.m */,
-				E8010A8018277300001220D3 /* UIScreen+Utilities.h */,
-				E8010A8118277300001220D3 /* UIScreen+Utilities.m */,
-				E8EF25141825F6EF00EB6555 /* Supporting Files */,
+				E8F8930D182894370074A881 /* UIKitExtend-Prefix.pch */,
+				E8F8930B1828938D0074A881 /* Headers */,
+				E8F8930C1828939D0074A881 /* Sources */,
 			);
 			path = UIKitExtend;
-			sourceTree = "<group>";
-		};
-		E8EF25141825F6EF00EB6555 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				E8EF25151825F6EF00EB6555 /* UIKitExtend-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		E8EF25271825F6EF00EB6555 /* UIKitExtendTests */ = {
@@ -218,6 +179,53 @@
 				E8EF252A1825F6F000EB6555 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E8F8930B1828938D0074A881 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E8010A5818273D8F001220D3 /* ARCMacros.h */,
+				E8EF25381825F74B00EB6555 /* UIView+Utilities.h */,
+				E8010A7718276F14001220D3 /* UIView+Animations.h */,
+				E8010A83182774A3001220D3 /* UIView+FromNib.h */,
+				E8010A8918277903001220D3 /* UIToolbar+BGImage.h */,
+				E8010A8618277808001220D3 /* UINavigationBar+BGImage.h */,
+				E8010A62182742B9001220D3 /* UIAlertView+Utilities.h */,
+				E8010A5218273A16001220D3 /* UIImage+Watermark.h */,
+				E8010A65182746F6001220D3 /* UIImage+Alpha.h */,
+				E8010A67182746F6001220D3 /* UIImage+Resize.h */,
+				E8010A69182746F6001220D3 /* UIImage+RoundedCorner.h */,
+				E8010A6B182746F6001220D3 /* UIImage+Utilities.h */,
+				E8010A711827498A001220D3 /* UIView+WhenTappedBlocks.h */,
+				E8010A7418274B7A001220D3 /* UIToolbar+KeybordToolbar.h */,
+				E8010A7A1827701A001220D3 /* UIApplication+Addictions.h */,
+				E8010A7D18277189001220D3 /* UIViewController+Utilities.h */,
+				E8010A8018277300001220D3 /* UIScreen+Utilities.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		E8F8930C1828939D0074A881 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E8EF25391825F74B00EB6555 /* UIView+Utilities.m */,
+				E8010A7818276F14001220D3 /* UIView+Animations.m */,
+				E8010A84182774A3001220D3 /* UIView+FromNib.m */,
+				E8010A8A18277903001220D3 /* UIToolbar+BGImage.m */,
+				E8010A8718277808001220D3 /* UINavigationBar+BGImage.m */,
+				E8010A63182742B9001220D3 /* UIAlertView+Utilities.m */,
+				E8010A5318273A16001220D3 /* UIImage+Watermark.m */,
+				E8010A66182746F6001220D3 /* UIImage+Alpha.m */,
+				E8010A68182746F6001220D3 /* UIImage+Resize.m */,
+				E8010A6A182746F6001220D3 /* UIImage+RoundedCorner.m */,
+				E8010A6C182746F6001220D3 /* UIImage+Utilities.m */,
+				E8010A721827498A001220D3 /* UIView+WhenTappedBlocks.m */,
+				E8010A7518274B7A001220D3 /* UIToolbar+KeybordToolbar.m */,
+				E8010A7B1827701A001220D3 /* UIApplication+Addictions.m */,
+				E8010A7E18277189001220D3 /* UIViewController+Utilities.m */,
+				E8010A8118277300001220D3 /* UIScreen+Utilities.m */,
+			);
+			name = Sources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
