@@ -190,23 +190,8 @@
 		E8F8930B1828938D0074A881 /* Headers */ = {
 			isa = PBXGroup;
 			children = (
-				E8010A5818273D8F001220D3 /* ARCMacros.h */,
-				E8EF25381825F74B00EB6555 /* UIView+Utilities.h */,
-				E8010A7718276F14001220D3 /* UIView+Animations.h */,
-				E8010A83182774A3001220D3 /* UIView+FromNib.h */,
-				E8010A8918277903001220D3 /* UIToolbar+BGImage.h */,
-				E8010A8618277808001220D3 /* UINavigationBar+BGImage.h */,
-				E8010A62182742B9001220D3 /* UIAlertView+Utilities.h */,
-				E8010A5218273A16001220D3 /* UIImage+Watermark.h */,
-				E8010A65182746F6001220D3 /* UIImage+Alpha.h */,
-				E8010A67182746F6001220D3 /* UIImage+Resize.h */,
-				E8010A69182746F6001220D3 /* UIImage+RoundedCorner.h */,
-				E8010A6B182746F6001220D3 /* UIImage+Utilities.h */,
-				E8010A711827498A001220D3 /* UIView+WhenTappedBlocks.h */,
-				E8010A7418274B7A001220D3 /* UIToolbar+KeybordToolbar.h */,
-				E8010A7A1827701A001220D3 /* UIApplication+Addictions.h */,
-				E8010A7D18277189001220D3 /* UIViewController+Utilities.h */,
-				E8010A8018277300001220D3 /* UIScreen+Utilities.h */,
+				E8F8930F18289CAD0074A881 /* Private */,
+				E8F8931018289CBA0074A881 /* Public */,
 			);
 			name = Headers;
 			sourceTree = "<group>";
@@ -232,6 +217,37 @@
 				E8010A8118277300001220D3 /* UIScreen+Utilities.m */,
 			);
 			name = Sources;
+			sourceTree = "<group>";
+		};
+		E8F8930F18289CAD0074A881 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				E8010A5818273D8F001220D3 /* ARCMacros.h */,
+			);
+			name = Private;
+			sourceTree = "<group>";
+		};
+		E8F8931018289CBA0074A881 /* Public */ = {
+			isa = PBXGroup;
+			children = (
+				E8EF25381825F74B00EB6555 /* UIView+Utilities.h */,
+				E8010A7718276F14001220D3 /* UIView+Animations.h */,
+				E8010A83182774A3001220D3 /* UIView+FromNib.h */,
+				E8010A8918277903001220D3 /* UIToolbar+BGImage.h */,
+				E8010A8618277808001220D3 /* UINavigationBar+BGImage.h */,
+				E8010A62182742B9001220D3 /* UIAlertView+Utilities.h */,
+				E8010A5218273A16001220D3 /* UIImage+Watermark.h */,
+				E8010A65182746F6001220D3 /* UIImage+Alpha.h */,
+				E8010A67182746F6001220D3 /* UIImage+Resize.h */,
+				E8010A69182746F6001220D3 /* UIImage+RoundedCorner.h */,
+				E8010A6B182746F6001220D3 /* UIImage+Utilities.h */,
+				E8010A711827498A001220D3 /* UIView+WhenTappedBlocks.h */,
+				E8010A7418274B7A001220D3 /* UIToolbar+KeybordToolbar.h */,
+				E8010A7A1827701A001220D3 /* UIApplication+Addictions.h */,
+				E8010A7D18277189001220D3 /* UIViewController+Utilities.h */,
+				E8010A8018277300001220D3 /* UIScreen+Utilities.h */,
+			);
+			name = Public;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
