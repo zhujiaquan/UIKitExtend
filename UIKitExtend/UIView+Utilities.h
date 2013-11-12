@@ -40,6 +40,12 @@
 - (CGSize)size;
 - (void)setSize:(CGSize)size;
 
+- (void)setLeftDelta:(CGFloat)delta;
+- (void)setTopDelta:(CGFloat)delta;
+
+- (void)setWidthDelta:(CGFloat)delta;
+- (void)setHeightDelta:(CGFloat)delta;
+
 - (id)firstResponder;
 
 - (NSArray *)allSubviews;
